@@ -38,7 +38,7 @@ MAIN FUNCTIONS
 */
 
 function preload() {
-  audio = loadSound("/media/audio.wav");
+  audio = loadSound("./media/audio.wav");
 }
 
 function setup() {
@@ -67,8 +67,6 @@ function draw() {
   } else {
     draw_before_started();
   }
-
-  console.log(getAudioContext().state);
 }
 
 function mousePressed() {
