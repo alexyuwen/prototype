@@ -38,7 +38,7 @@ MAIN FUNCTIONS
 */
 
 function preload() {
-  audio = loadSound("media/audio.wav");
+  audio = loadSound("audio.wav");
 }
 
 function setup() {
